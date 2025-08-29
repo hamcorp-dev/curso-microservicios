@@ -1,5 +1,8 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace ApiGlobal.Models
 {
+    [Table("child")]
     public class Child
     {
         public int Id { get; set; }
